@@ -1,0 +1,6 @@
+framework module Pods_H250729TCPDemoTests {
+  umbrella header "Pods-H250729TCPDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
