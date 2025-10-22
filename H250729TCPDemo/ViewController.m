@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "TCPServerViewController.h"
 #import "TCPClientViewController.h"
+#import "HWTestCrashed.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,10 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    //test 25.10.22
+    HWTestCrashed *test = [HWTestCrashed new];
+    [test test2];
 }
 
 - (TCPClientViewController *)clientVC {
